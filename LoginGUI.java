@@ -118,7 +118,7 @@ public class LoginGUI implements ActionListener {
 		BufferedImage image = null;
 		try {
 			// Background Image source: https://www.shutterstock.com/search/login-background
-			image = ImageIO.read(new File("/Users/saidlfagrouche/Downloads/360_F_292905667_yFUJNJPngYeRNlrRL4hApHWxuYyRY4kN.jpg"));
+			image = ImageIO.read(new File("/Users/saidlfagrouche/Downloads/backgroundPicture.jpg"));
 
 			// Initializing and adding background label to panel
 			backgroundLabel = new JLabel(new ImageIcon(image));
